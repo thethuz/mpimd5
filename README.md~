@@ -1,10 +1,10 @@
-##Sử dụng MPI để thám mã md5
+## Sử dụng MPI để thám mã md5
 
-######Biên dịch:
+###### Biên dịch:
 ```
 mpic++ mpimd5.cpp -o mpimd5
 ```
-######Chạy:
+###### Chạy:
 ```
 > mpirun -np [nprocess] mpimd5 [hashstring] [passwordLength].
 ```
