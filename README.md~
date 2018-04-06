@@ -8,5 +8,5 @@ mpic++ mpimd5.cpp -o mpimd5
 ```
 > mpirun -np [nprocess] mpimd5 [hashstring] [passwordLength].
 ```
-Trong đó nprocess là số tiến trình, hashstring là chuỗi cần phá mã, 
+Trong đó nprocess là số tiến trình, hashstring là mật khẩu cần tìm, passwordLength là độ dài mật khẩu đã biết.
 
